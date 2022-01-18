@@ -61,13 +61,13 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Neo,',
-  'sooner or later',
-  'you\'re going to realize',
-  'just as I did',
-  'that there\'s a difference',
-  'between knowing the path',
-  'and walking the path'
+  'Made with <i class="fas fa-heart"></i> in Magetan',
+  'Made with <i class="fas fa-heart"></i> by Ilham Taufiq',
+  'Just another wibu site',
+  'Hadir sejak 2020',
+  'Thanks for visit',
+  'Have a great day',
+  'All about anime'
 ]
 
 const el = document.querySelector('.nb-kaki')
@@ -76,7 +76,7 @@ const fx = new TextScramble(el)
 let counter = 0
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 800)
+    setTimeout(next, 1500)
   })
   counter = (counter + 1) % phrases.length
 }

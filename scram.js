@@ -61,13 +61,13 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  ' in Magetan',
-  ' by Ilham Taufiq',
-  ' and WordPress',
-  ' since 2020',
-  ' to you',
-  ' as a hobby',
-  ' for world'
+  'in Magetan',
+  'by Ilham Taufiq',
+  'and WordPress',
+  'since 2020',
+  'to you',
+  'as a hobby',
+  'for world'
 ]
 
 const el = document.querySelector('.nb-kaki')

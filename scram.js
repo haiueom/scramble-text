@@ -5,7 +5,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = '!<>-_\\/[]{}—=+*^?#________'
+    this.chars = 'ラドクリフマラソンわたしワタシんょンョたばこタバコとうきょうトウキョウ'
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -61,13 +61,13 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Made with <i class="fas fa-heart"></i> in Magetan',
-  'Made with <i class="fas fa-heart"></i> by Ilham Taufiq',
-  'Just another wibu site',
-  'Hadir sejak 2020',
-  'Thanks for visit',
-  'Have a great day',
-  'All about anime'
+  ' in Magetan',
+  ' by Ilham Taufiq',
+  ' and WordPress',
+  ' since 2020',
+  ' to you',
+  ' as a hobby',
+  ' for world'
 ]
 
 const el = document.querySelector('.nb-kaki')
